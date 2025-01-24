@@ -2,7 +2,7 @@
 """
 A TP base
 
-@author: Anonymous Author
+@author: Taole Sha, Michael Zhang
 """
 
 import autograd.numpy as np 
