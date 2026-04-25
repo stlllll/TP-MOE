@@ -158,37 +158,10 @@ The `data/` folder contains the 14 datasets used in the experiments:
 
 The paper’s tables (MSE, log‑likelihood, CRPS, CPU time) can be reproduced by running the code on each dataset with the settings described in Section 4 (J=100, inducing points=50 for sparse methods, etc.). The provided `pymp_TPMOE.py` includes commented code for loading each dataset.
 
-For comparisons with GP‑MOE, WISKI, and OSVGP, refer to the original implementations:
-
-- [GP‑MOE](https://github.com/michaelzhang01/GPMOE)
-- [WISKI](https://github.com/stanfordmlgroup/wiski)
-- [OSVGP](https://github.com/trungngv/streaming-sparse-gps)
-
-## Citation
-
-If you use this code in your research, please cite the original paper:
-
-```bibtex
-@inproceedings{sha2025onlinestudentt,
-  title={Online Student-\(t\) Processes with an Overall-local Scale Structure for Modelling Non-stationary Data},
-  author={Sha, Taole and Zhang, Michael Minyi},
-  booktitle={International Conference on Artificial Intelligence and Statistics (AISTATS)},
-  pages={1108--1116},
-  year={2025},
-  volume={258},
-  series={Proceedings of Machine Learning Research},
-  publisher={PMLR}
-}
-```
-
-## License
-
-This project is licensed under the MIT License – see the [LICENSE](LICENSE) file for details.
-
 ## Acknowledgements
 
 The authors thank the HKU Summer Research Fellowship and the HKU‑URC Seed Fund for Basic Research for New Staff. This code builds upon the [GPMOE](https://github.com/michaelzhang01/GPMOE) repository.
 
 ## Contact
 
-For questions or issues, please open an issue on GitHub or contact Taole Sha (u3577089@connect.hku.hk).
+For questions or issues, please contact Taole Sha (u3577089@connect.hku.hk).
