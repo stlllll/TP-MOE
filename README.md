@@ -17,7 +17,7 @@ Mixture-of-experts (MOE) models are powerful for modeling heterogeneous and non�
 - Uses an **overall‑local scale structure** to capture heteroscedastic noise.
 - Employs a **Sequential Monte Carlo (SMC) sampler** for fully online inference as data arrive in real‑time.
 
-The model outperforms Gaussian‑process‑based online methods (GP‑MOE, WISKI, OSVGP) on a wide range of synthetic and real‑world datasets, especially when data exhibit heavy tails, abrupt changes, or heteroscedasticity.
+The model outperforms Gaussian‑process‑based online methods on a wide range of synthetic and real‑world datasets, especially when data exhibit heavy tails, abrupt changes, or heteroscedasticity.
 
 ## Repository Structure
 
